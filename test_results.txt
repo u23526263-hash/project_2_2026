@@ -1,0 +1,11 @@
+test_abc_7090 (__main__.T.test_abc_7090) ... ok
+test_abc_example (__main__.T.test_abc_example) ... ok
+test_epq_bad (__main__.T.test_epq_bad) ... ok
+test_epq_example (__main__.T.test_epq_example) ... ok
+test_epq_faster (__main__.T.test_epq_faster) ... ok
+test_epq_to_eoq (__main__.T.test_epq_to_eoq) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.000s
+
+OK

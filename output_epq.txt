@@ -1,0 +1,28 @@
+==================================================
+Worked example (p = 100 units/day)
+==================================================
+Optimal production quantity: 1000.0
+Production runs per year: 12.0
+Length of each run (days): 10.0
+Maximum inventory level: 600.0
+==================================================
+Try it yourself 1: faster machine (p = 150 units/day)
+==================================================
+Optimal production quantity: 904.53
+Production runs per year: 13.27
+Length of each run (days): 6.0
+Maximum inventory level: 663.32
+-> EPQ goes DOWN: with faster production, less of each batch is used up
+   during the run, so peak stock (and holding cost) is higher; smaller
+   batches become cheaper overall.
+==================================================
+Try it yourself 2: very fast production (p = 100,000)
+==================================================
+Optimal production quantity: 774.75
+Production runs per year: 15.49
+Length of each run (days): 0.0
+Maximum inventory level: 774.44
+Plain EOQ (same D, S, H): 774.6
+Difference EPQ - EOQ: 0.15
+-> When p is huge, d/p is close to 0, so (1 - d/p) is close to 1 and
+   the EPQ formula becomes the EOQ formula (the batch arrives almost instantly).
