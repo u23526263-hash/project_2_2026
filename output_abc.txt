@@ -1,0 +1,38 @@
+=======================================================
+Worked example (A <= 80%, B <= 95%)
+=======================================================
+BRK-100 | value: 90000 | cum %: 32.4 | tier: A
+BRG-330 | value: 48000 | cum %: 49.6 | tier: A
+GSK-220 | value: 45000 | cum %: 65.8 | tier: A
+MTR-700 | value: 40000 | cum %: 80.2 | tier: B
+BLT-010 | value: 20000 | cum %: 87.4 | tier: B
+SEAL-500 | value: 15000 | cum %: 92.8 | tier: B
+WSH-050 | value: 10000.0 | cum %: 96.4 | tier: C
+CBL-900 | value: 10000 | cum %: 100.0 | tier: C
+SKUs per tier: {'A': 3, 'B': 3, 'C': 2}
+=======================================================
+Try it yourself 1: 10 SKUs (two added)
+=======================================================
+BRK-100 | value: 90000 | cum %: 26.9 | tier: A
+BRG-330 | value: 48000 | cum %: 41.2 | tier: A
+GSK-220 | value: 45000 | cum %: 54.6 | tier: A
+MTR-700 | value: 40000 | cum %: 66.6 | tier: A
+PMP-410 | value: 36000 | cum %: 77.3 | tier: A
+FLT-120 | value: 21000 | cum %: 83.6 | tier: B
+BLT-010 | value: 20000 | cum %: 89.6 | tier: B
+SEAL-500 | value: 15000 | cum %: 94.0 | tier: B
+WSH-050 | value: 10000.0 | cum %: 97.0 | tier: C
+CBL-900 | value: 10000 | cum %: 100.0 | tier: C
+SKUs per tier: {'A': 5, 'B': 3, 'C': 2}
+=======================================================
+Try it yourself 2: thresholds A <= 70%, B <= 90%
+=======================================================
+BRK-100 | value: 90000 | cum %: 32.4 | tier: A
+BRG-330 | value: 48000 | cum %: 49.6 | tier: A
+GSK-220 | value: 45000 | cum %: 65.8 | tier: A
+MTR-700 | value: 40000 | cum %: 80.2 | tier: B
+BLT-010 | value: 20000 | cum %: 87.4 | tier: B
+SEAL-500 | value: 15000 | cum %: 92.8 | tier: C
+WSH-050 | value: 10000.0 | cum %: 96.4 | tier: C
+CBL-900 | value: 10000 | cum %: 100.0 | tier: C
+SKUs per tier: {'A': 3, 'B': 2, 'C': 3}
